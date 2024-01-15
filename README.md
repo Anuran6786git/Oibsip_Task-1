@@ -4,6 +4,9 @@ This application will aim at helping its users by converting the units from one 
 #procedure
 
 1.Create a New Project in Android Studio App.
+
 2.The User Interface with XML is Designed.
+
 3.Login and Signup Functionality is implemented with Java.
+
 4.The app is tested.
