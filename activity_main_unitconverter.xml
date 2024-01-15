@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unit_converter_app"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:fontFamily="monospace"
+                />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_values_in_Kg"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="30sp"
+        android:layout_marginBottom="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_marginTop="50sp"
+        android:fontFamily="monospace"
+        />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginEnd="30sp"
+        android:autofillHints=""
+        android:hint="@string/CONVERT"
+        android:inputType="number"
+        android:textColorHint="#8D6E63"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/Convert"
+        android:text="@string/CONVERT"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/value_in_pounds"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="30sp"
+        android:layout_marginBottom="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_marginTop="50sp"
+        android:fontFamily="monospace"
+        />
+ </LinearLayout>
